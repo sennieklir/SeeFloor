@@ -1,0 +1,45 @@
+{
+  "building_name": "red industrial building",
+  "rooms": [
+    {
+      "room_name": "Main Laboratory",
+      "room_type": "laboratory",
+      "floor_level": 5,
+      "distance_to_exit": 55.0,
+      "adjacency": "electrical_room",
+      "occupant_load": 80
+    },
+    {
+      "room_name": "Electrical Room",
+      "room_type": "electrical_room",
+      "floor_level": 5,
+      "distance_to_exit": 50.0,
+      "adjacency": "laboratory",
+      "occupant_load": 10
+    },
+    {
+      "room_name": "Chemical Storage",
+      "room_type": "storage",
+      "floor_level": 6,
+      "distance_to_exit": 62.0,
+      "adjacency": "kitchen",
+      "occupant_load": 20
+    },
+    {
+      "room_name": "Industrial Kitchen",
+      "room_type": "kitchen",
+      "floor_level": 6,
+      "distance_to_exit": 58.0,
+      "adjacency": "storage",
+      "occupant_load": 500
+    },
+    {
+      "room_name": "Server Room",
+      "room_type": "server_room",
+      "floor_level": 7,
+      "distance_to_exit": 48.0,
+      "adjacency": "electrical_room",
+      "occupant_load": 15
+    }
+  ]
+}

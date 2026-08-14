@@ -1,0 +1,45 @@
+{
+  "building_name": "green school building",
+  "rooms": [
+    {
+      "room_name": "Classroom A",
+      "room_type": "classroom",
+      "floor_level": 1,
+      "distance_to_exit": 10.0,
+      "adjacency": "corridor",
+      "occupant_load": 40
+    },
+    {
+      "room_name": "Classroom B",
+      "room_type": "classroom",
+      "floor_level": 1,
+      "distance_to_exit": 15.0,
+      "adjacency": "corridor",
+      "occupant_load": 35
+    },
+    {
+      "room_name": "Faculty Office",
+      "room_type": "office",
+      "floor_level": 1,
+      "distance_to_exit": 8.0,
+      "adjacency": "lobby",
+      "occupant_load": 10
+    },
+    {
+      "room_name": "Restroom",
+      "room_type": "restroom",
+      "floor_level": 1,
+      "distance_to_exit": 5.0,
+      "adjacency": "corridor",
+      "occupant_load": 5
+    },
+    {
+      "room_name": "Library",
+      "room_type": "conference",
+      "floor_level": 2,
+      "distance_to_exit": 18.0,
+      "adjacency": "stairwell",
+      "occupant_load": 30
+    }
+  ]
+}

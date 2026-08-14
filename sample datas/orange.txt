@@ -1,0 +1,45 @@
+{
+  "building_name": "orange commercial building",
+  "rooms": [
+    {
+      "room_name": "Ground Floor Office",
+      "room_type": "office",
+      "floor_level": 1,
+      "distance_to_exit": 30.0,
+      "adjacency": "storage",
+      "occupant_load": 55
+    },
+    {
+      "room_name": "Storage Room A",
+      "room_type": "storage",
+      "floor_level": 2,
+      "distance_to_exit": 35.0,
+      "adjacency": "electrical_room",
+      "occupant_load": 15
+    },
+    {
+      "room_name": "Conference Room",
+      "room_type": "conference",
+      "floor_level": 2,
+      "distance_to_exit": 28.0,
+      "adjacency": "storage",
+      "occupant_load": 60
+    },
+    {
+      "room_name": "Pantry",
+      "room_type": "kitchen",
+      "floor_level": 2,
+      "distance_to_exit": 25.0,
+      "adjacency": "corridor",
+      "occupant_load": 10
+    },
+    {
+      "room_name": "3rd Floor Office",
+      "room_type": "office",
+      "floor_level": 3,
+      "distance_to_exit": 32.0,
+      "adjacency": "storage",
+      "occupant_load": 70
+    }
+  ]
+}
